@@ -11,3 +11,121 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+header img {
+  width:70%;
+}
+
+a {
+  text-decoration: none;
+  color:black;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px; 
+}
+
+.nav-links {
+  margin:20px;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/**BASE DESIGN FOR ALL PAGES**/
+
+
+.container{
+  background-color: #F4F4F4;
+  padding:10px;
+  text-align: center;
+}
+
+
+/**Home welcome page**/
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+/**About**/
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #F4F4F4;
+  padding:10px
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.about-header {
+  font-weight: 800;
+}
+
+.citrus {
+  width: 80%;
+}
+
+
+
+/**Contact**/
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+
+/**Footer**/
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+footer img {
+  width: 80%;
+}
+
+.dekal {
+  display: flex;
+   justify-content: center; 
+   margin-top: 20px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #F4F4F4; 
+  margin-top: 20px;
+}
+
+.logo {
+  width: 10%;
+  margin:10px;
+}
+
