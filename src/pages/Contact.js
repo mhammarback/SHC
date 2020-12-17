@@ -8,6 +8,8 @@ export const Contact = () => {
               <p>Email: lallahahahl@gmla.com </p>
               <p>Phone: +46 7564 45406 </p>
             </div>
+            <img className ="car" alt="our car" src={require('../images/car.jpg')} />
+
            
         </section>
     )

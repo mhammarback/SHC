@@ -4,10 +4,11 @@ import { NavLink } from 'react-router-dom'
 export const Header = () => {
     return(
         <header>
-            <NavLink to ="/" className="nav-links">
-            <img alt="dekal" src={require('../images/logga.jpg')} />
-            </NavLink>
+           
             <nav>
+            <NavLink to ="/" className="nav-links">
+                Home
+            </NavLink>
               <NavLink to="/about" exact className="nav-links">
                   About
               </NavLink>
@@ -18,3 +19,5 @@ export const Header = () => {
         </header>
     )
 }
+
+//            <img alt="dekal" src={require('../images/logga.jpg')} />

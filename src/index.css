@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: 'Playfair Display', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,7 +14,8 @@ code {
 header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 
 header img {
@@ -31,7 +30,8 @@ a {
 nav {
   display: flex;
   flex-direction: row;
-  margin-top: 20px; 
+  margin-top: 20px;
+  font-size: 18px; 
 }
 
 .nav-links {
@@ -47,7 +47,6 @@ nav {
 
 
 .container{
-  background-color: #F4F4F4;
   padding:10px;
   text-align: center;
 }
@@ -57,13 +56,24 @@ nav {
 
 .welcome {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
+  justify-content: center;
 }
 
 .small-header {
   font-weight: 700;
 }
+
+.home-style {
+  background-color: #F4F4F4;
+  padding: 20px 0 20px 0;
+}
+
+.home-style-opposite {
+  padding: 20px 0 20px 0;
+}
+
 
 
 /**About**/
@@ -99,6 +109,11 @@ nav {
   display: flex;
   flex-direction: column;
   text-align: center;
+  align-items: center;
+}
+
+.car {
+  width:90%;
 }
 
 
@@ -133,8 +148,20 @@ footer img {
   margin:10px;
 }
 
+.large-logga { 
+  width:40%;
+}
+
 
 @media (min-width: 700px) {
+
+h1 {
+  font-size: 72px;
+}
+
+.welcome h1 { 
+  padding-top: 100px;
+}
 
 .home-style {
   display: flex;
@@ -146,6 +173,10 @@ footer img {
   display: flex;
   flex-direction: row-reverse;
   text-align: right;
+}
+
+header {
+  justify-content: flex-end;
 }
 
 .header-style {
@@ -162,6 +193,8 @@ footer img {
   width:40%;
   margin:20px;
 }
-
+nav { 
+  font-size: 30px;
+}
 
 }
