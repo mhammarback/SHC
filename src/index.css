@@ -10,6 +10,11 @@ code {
     monospace;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 
 header {
   display: flex;
@@ -42,6 +47,21 @@ nav {
   text-decoration: underline;
   color: black;
 }
+
+
+.icons { 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.icons img {
+  width: 20%;
+  margin: 5px 20px;
+}
+
+
 
 /**BASE DESIGN FOR ALL PAGES**/
 
@@ -149,7 +169,8 @@ footer img {
 }
 
 .large-logga { 
-  width:40%;
+  width:10%;
+ margin-right: 63%;
 }
 
 
@@ -157,6 +178,14 @@ footer img {
 
 h1 {
   font-size: 72px;
+}
+
+p {
+  font-size: 30px;
+}
+
+ul {
+  font-size: 30px;
 }
 
 .welcome h1 { 
@@ -189,12 +218,27 @@ header {
   max-width: 700px;
 }
 
+.small-header {
+  font-size: 35px;
+}
+
 .citrus {
   width:40%;
   margin:20px;
 }
 nav { 
   font-size: 30px;
+}
+
+.icons { 
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.icons img {
+  width: 10%;
+  margin: 0px 60px 20px ;
 }
 
 }

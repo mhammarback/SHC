@@ -20,3 +20,4 @@ export const Header = () => {
 }
 
 //            <img alt="dekal" src={require('../images/logga.jpg')} />
+//<img className ="large-logga" alt="dekal" src={require('../images/Profilbild2.jpg')} />
