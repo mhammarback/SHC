@@ -1,20 +1,18 @@
 import React from 'react'
 
 export const Home = () => { 
-    return(
-       <>
-       <div className="welcome">
-        <h1>Don't waste your own time, call us!</h1> 
-        </div>  
+  return(
+    <>
+      <div className="welcome">
+      <h1>Don't waste your own time, call us!</h1> 
+      </div>  
 
-        <div className ="icons">
-          <img className ="" alt="clock" src={require('../images/wall-clock.svg')} />
-          <img className ="" alt="clock" src={require('../images/tick.png')} />
-          <img className ="" alt="clock" src={require('../images/no-preservatives.png')} />
-        </div>
+      <div className ="icons">
+        <img className ="" alt="clock" src={require('../images/wall-clock.svg')} />
+        <img className ="" alt="clock" src={require('../images/tick.png')} />
+        <img className ="" alt="clock" src={require('../images/no-preservatives.png')} />
+      </div>
        
-
-
        <section className="container">
           <div className="home-style">
             <img className ="citrus" alt="citrus" src={require('../images/dalarna.jpg')} />
